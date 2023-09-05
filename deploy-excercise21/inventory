@@ -1,0 +1,9 @@
+[myself]
+localhost
+
+[intranetweb]
+vm-6-node1-ansible.example.com
+
+[everyone:children]
+myself
+intranetweb
