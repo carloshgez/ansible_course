@@ -18,13 +18,13 @@
 
     - name: firewalld permits http service
       ansible.posix.firewalld:
-        ansible.builtin.service: http
+        service: http
         permanent: true
         state: enabled
         immediate: yes
 
     - name: httpd enabled and running
-      ansible.builtin.service:
+      ansible.builtin.service: 
         name: httpd
         enabled: true
         state: started
