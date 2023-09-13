@@ -1,0 +1,14 @@
+---
+- name: create user accounts for all our servers
+  hosts: devservers
+  become: true
+  vars_files:
+  - secret.yml
+
+  tasks:
+    - name: Creating user from secret.yml
+      ansible.builtin.user:
+        name: "{{ username }}"
+        password: "{{ password }}"
+        state: present
+        shell: /bin/bash
