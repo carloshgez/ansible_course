@@ -1,0 +1,4 @@
+[webservers]
+#vm-6-control-ansible.example.com ansible_connection=local
+vm-6-node1-ansible.example.com
+vm-6-node2-ansible.example.com
