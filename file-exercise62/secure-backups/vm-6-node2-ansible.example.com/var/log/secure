@@ -1,0 +1,2 @@
+Sep 18 17:33:06 vm-6-node2-ansible sshd[70555]: Accepted publickey for root from 192.168.122.219 port 58782 ssh2: RSA SHA256:ypJOLb5f5pN1w0ECl0TV5nUtkNP9QJIhGxN7ennWf18
+Sep 18 17:33:06 vm-6-node2-ansible sshd[70555]: pam_unix(sshd:session): session opened for user root by (uid=0)

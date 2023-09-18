@@ -1,0 +1,10 @@
+---
+- name: Using the copy module
+  hosts: all
+  remote_user: automation
+
+  tasks:
+  - name: Remove a file from managed hosts
+    ansible.builtin.file:
+      path: /home/automation/users.txt
+      state: absent

@@ -1,0 +1,3 @@
+[devservers]
+vm-6-node1-ansible.example.com
+vm-6-node2-ansible.example.com
